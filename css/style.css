@@ -1,0 +1,155 @@
+h1 {
+  background-color: #000000;
+  color: #ff9102;
+  padding: 10px 0;
+  text-align: center;
+  font-family: "Arial", sans-serif;
+  font-size: 40px;
+  top: -4%;
+  left: 32%;
+}
+h1:hover {
+  color: #02ffff;
+}
+h1:active {
+  transform: scale(0.95);
+}
+h1:hover {
+  text-shadow: 0 0 5px #02ffff, 0 0 15px #02ffff;
+}
+
+a {
+  color: #02ffff;
+  font-family: "Arial", sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:hover {
+  color: #ff9102;
+}
+
+h2 {
+  color: #ff9102;
+  font-family: "Arial", sans-serif;
+  text-align: center;
+  font-size: 30px;
+}
+body {
+  background-color: rgb(0, 0, 0);
+}
+footer {
+  background-color: #000000;
+  color: #ff9102;
+  text-align: center;
+  padding: 10px 0;
+  position: static;
+  width: 100%;
+  bottom: 10px;
+  font-family: "Arial", sans-serif;
+}
+nav a {
+  margin: 0 15px;
+  font-size: 18px;
+  text-align: center;
+  top: auto;
+}
+
+p {
+  color: #ff9102;
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  margin: 20px;
+}
+video {
+  display: block;
+  margin: 30px auto;
+  max-width: 50%;
+  border: 8px solid #ff9102;
+  border-radius: 10px;
+}
+img {
+  display: block;
+  margin: 20px auto;
+  max-width: 80%;
+  border: 3px solid #ff9102;
+  border-radius: 10px;
+}
+img:hover {
+  border-color: #02ffff;
+}
+img:active {
+  transform: scale(1.95);
+}
+marquee {
+  border: 5px solid #ff9102;
+  padding: 10px;
+  margin: 30px auto;
+  width: 98%;
+  font-family: "Arial", sans-serif;
+  color: #ff9102;
+  background-color: #000000;
+}
+marquee:hover {
+  border-color: #02ffff;
+  color: #02ffff;
+}
+
+.clock {
+  position: absolute;
+  top: 5%;
+  left: 9%;
+  transform: translateX(-50%) translateY(-50%);
+  color: #17d4fe;
+  font-size: 40px;
+  font-family: Orbitron;
+  letter-spacing: 7px;
+}
+.clock:hover {
+  color: #ff9102;
+}
+.clock:active {
+  transform: translateX(-50%) translateY(-50%) scale(0.9);
+}
+.clock {
+  text-shadow: 0 0 20px #17d4fe, 0 0 30px #17d4fe, 0 0 40px #17d4fe;
+}
+.clock:hover {
+  text-shadow: 0 0 20px #ff9102, 0 0 30px #ff9102, 0 0 40px #ff9102;
+}
+p2 {
+  position: static;
+  top: 50%;
+  left: 52%;
+  transform: translateX(-50%) translateY(-50%);
+  color: #17d4fe;
+  font-size: 30px;
+  font-family: Orbitron;
+  letter-spacing: 3px;
+}
+a2 {
+  color: #02ffff;
+  font-family: "Arial", sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+}
+#myBtn {
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #ff9102; /* Set a background color */
+  color: black; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #02ffff; /* Add a dark-grey background on hover */
+}
