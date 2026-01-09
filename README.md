@@ -1,7 +1,7 @@
 # Gamingzone
 Week 01: Build Out the website
 
-i achieved <header> <nav> and <footer>
+i achieved header nav and footer and more
 
 
 The header also has a hoover affect so it with change colour to bright your day 
